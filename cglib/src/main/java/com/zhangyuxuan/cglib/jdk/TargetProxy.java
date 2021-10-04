@@ -32,7 +32,6 @@ public class TargetProxy implements InvocationHandler {
     /**
      * 通常应该用这种形式，绑定委托对象并返回代理对象
      * @param object
-     * @param <T>
      * @return
      */
     public Object getProxy(Object object) {
