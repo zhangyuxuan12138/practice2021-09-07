@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @description:
  * @author: zhangyuxuan
@@ -8,7 +11,9 @@ public class TestTwo {
         Integer integer;
         Integer integer1 = null;
         String s = "null";
-        integer = s == null ? 0 : integer1;
-        System.out.println(integer);
+//        integer = s == null ? 0 : integer1;
+//        System.out.println(integer);
+        Map<String, String> map = new HashMap<>();
+        System.out.println(map.put("123", "123"));
     }
 }
